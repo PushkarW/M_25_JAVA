@@ -1,0 +1,30 @@
+package org.tnsindia.defaultconstructor;
+
+class Car
+{
+	//variable
+	public int speed;
+	//method
+	void display()
+	{
+		System.out.println("The speed is: "+speed+"km/hr");
+	}
+	//default constructor
+	//Constructor is used to initialize the value of the variables
+	Car()
+	{
+		speed=50;
+	}
+}
+public class ConstructorDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car obj=new Car();
+		//obj.speed=50;
+		//calling the method of car class
+		obj.display();
+
+	}
+
+}
